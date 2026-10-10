@@ -1,0 +1,16 @@
+add_executable(
+    image_processor
+    image_processor.cpp
+    Image.cpp
+    Color.cpp
+    FabricBMP.cpp
+    FilterFactory.cpp
+    CalculatePixelInMatrix.cpp
+    BlurFilter.cpp
+    CropFilter.cpp
+    EdgeDetectionFilter.cpp
+    GrayscaleFilter.cpp
+    NegativeFilter.cpp
+    SharpeningFilter.cpp
+    ComicFilter.cpp
+)
